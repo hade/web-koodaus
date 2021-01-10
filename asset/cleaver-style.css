@@ -1,0 +1,9 @@
+pre {
+	/* Increase the default pre-font a bit */
+	font-size: 70%;
+}
+
+.hljs-tag {
+	color: red;
+}
+
