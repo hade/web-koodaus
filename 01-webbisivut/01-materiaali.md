@@ -45,7 +45,7 @@ View > Developer > Developer tools
 -- 
 
 ### Tiedostot ja hakemistot
-- Internet-sivut ovat tiedostoja, esimerkiksi index.html
+- Internet-sivut ovat tiedostoja, esimerkiksi `index.html`
 - Osaatko nimetä tiedostoja omalta koneeltasi?
 
 --
