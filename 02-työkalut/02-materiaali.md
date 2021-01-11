@@ -76,4 +76,4 @@ style: ../asset/cleaver-style.css
 -- 
 
 ### Kotitehtävä
-- Luo uusi tiedosto, jossa käytät eri otsikoita (h1, h2 ja h3) ja jokainen otsikko on eri värinen.
+- Avaa laksy-aloitus.html -tiedosto. Luo sisältöä, jossa käytät eri otsikoita (h1, h2 ja h3). Jokaisen otsikon tulisi olla eri värinen.
