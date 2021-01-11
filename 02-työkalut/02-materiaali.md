@@ -31,7 +31,8 @@ style: ../asset/cleaver-style.css
 
 ### Asennetaan luentomateriaalit koneelle
 - Asenna git (kysy opelta)
-- Asenna luentomateriaalit omalle koneelle (github repo)
+- Asenna luentomateriaalit omalle koneelle (github:in web-koodaus repo)
+- https://github.com/hade/web-koodaus
 - Näitä opiskellaan myöhemmässä vaiheessa lisää. 
 
 --
@@ -49,9 +50,9 @@ style: ../asset/cleaver-style.css
 --
 
 ### 02-työkalut
-- Avataan index.html LiveServerin avulla
-- Koita tehdän tiedostoon muutoksia ja tallenna. 
-- Katso mitä tapahtuu. 
+- Avataan luentomateriaalit LiveServerin avulla. 
+- Voit selailla kaikkia luentomateriaaleja, myös tehtäviä. 
+- Opetuskerran kansiosta löytyy aina esitys.html
 
 --
 
