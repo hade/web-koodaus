@@ -22,6 +22,8 @@ Venla ja Lilja haluavat järjestää lanit. Ensin he liittävät koneet toisiins
 
  ![kaksi konetta](img/kaksi-konetta.svg)
 
+ https://www.youtube.com/watch?v=lcb8uafr0cw
+
 --
 
 ### Kolme konetta
@@ -126,6 +128,7 @@ Internetissä on paljon palveluita, muitakin kuin Webbi. Esimerkiksi sähköpost
 
 - Internetissä on satoja miljoonia palvelimia (Server). 
 - Palvelin on tietokone, joka **palvelee** sen asiakkaita. Web-pavelin palvelee Web-asiakkaita (Client), eli selaimia (Browser).
+- Etsi kuvahaulla "konesali".
 
 --
 
@@ -147,3 +150,36 @@ Internetissä on paljon palveluita, muitakin kuin Webbi. Esimerkiksi sähköpost
 - Protokolla tarkoittaa yhteisesti sovittuja **sääntöjä**. 
 - HTTP (Hyper Text Transfer Protocol) on Webin yhteisesti sovitut säännöt. 
 - Ohjeet, miten selain saa kyseltyä verkkosivuja palvelimelta. 
+
+--
+
+### Leikki: Client & Server
+- Tarvikkeet:
+  - värikynät
+  - kolmen värisiä post-it -lappuja
+  - laatikko
+  - kirjoituskynä posti-it -lapuille
+  - pahvinpalasia
+
+--
+
+### Leikki: Client & Server
+- Valitaan käyttäjä, selain (Client) ja palvelin (Server)
+- Kurssin vetäjän kannattaa olla käyttäjä
+- Pahvinpalasille kirjoitetaan "GET", "401 Not found", "500 Internal Server Error" ja "200 OK"
+- Leikkiin saa pukeutua
+- Alussa käydään läpi lappujen tarkoitus. Sininen on HTML (sisältö), punainen tarkoittaa tyyliä (CSS) ja keltainen Javascriptiä (JS). 
+
+--
+
+### Leikki: Client & Server
+Käyttäjä kirjoittaa paperille osoitteen, johon haluaa mennä. Käyttäjä antaa osoitelapun selaimelle. Selain ottaa lapun vastaan ja laittaa sen pieneen koriin yhdessä "GET"-pahvinpalan kanssa. 
+
+Kun palvelin saa laatikon, niin se tutkii, että löytyykö sivu. Jos ei löydy, niin voi palauttaa suoraan "401":en tai jos jokin menee pieleen, niin "500":en. Jos sivu löytyy ja se osataan palauttaa, niin palvelin kirjoittaa laatikkoon kolme lappua. 
+
+--
+
+### Leikki: Client & Server
+Siniseen lappuun tulee sisältö omin sanoin, vaikkapa ranskalaisin viivoin. Punaiseen lappuun voi kirjoittaa tyylin, esimerkiksi taustan värin, tekstin värin, välit, otsikoiden värit jne. Keltaiseen lappuun kirjoitetaan Javascript omin sanoin, eli käytännössä mitä sivulla tapahtuu, kun käyttäjä liikkuu siinä. 
+
+Kun palvelin palauttaa laatikon selaimelle, niin selain lukee ensin html- ja tyylilaput ja piirtää sivun näiden perusteella. Tämän jälkeen selain näyttää sivun käyttäjälle ja käyttäjä kertoo, että mitä tekee sivulla. Esimerkiksi sormella liikkuu paperilla ja sanoo asioita, joita tekee. "Laitan hiiren tämän tekstin päälle, mutta en vielä klikkaa". Tai "klikkaan nyt tätä painiketta". 

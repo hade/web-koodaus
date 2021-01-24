@@ -11,10 +11,16 @@ style: ../asset/cleaver-style.css
 
 --
 
-### Edellisen tunnin kertausta
-- Mitäs ne sivustot olikaan?
-- Mikä on selain?
-- Mitä eroa on tiedostolla ja kansiolla?
+### Kurssilla käytetyt työkalut
+- Chrome
+- Visual Studio Code (ja lisäosat)
+- Git
+- Spectacle?
+
+--
+
+### Asennus
+...
 
 --
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>Miten netti toimii</title>
+  <title>HTML - otsikot</title>
   <style type="text/css">
     body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -370,6 +370,10 @@ pre {
 	height: 680px;
 }
 
+.green {
+	color: green;
+}
+
 
   </style>
 </head>
@@ -379,187 +383,70 @@ pre {
   </div>
 
   <div class="slide" id="slide-1">
-    <section class="slide-content"><h1 id="miten-internet-toimii">Miten Internet toimii</h1>
+    <section class="slide-content"><h1 id="html-otsikot">HTML - otsikot</h1>
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
-    <section class="slide-content"><h3 id="yhteenliitettyj-koneita">Yhteenliitettyjä koneita</h3>
+    <section class="slide-content"><h3 id="otsikot">Otsikot</h3>
 <ul>
-<li>Hurja määrä erilaisia laitteita, jotka keskustelevat keskenään.</li>
-<li>Läppäreitä, puhelimia, autoja, valtavia konesaleja</li>
+<li><code>&lt;h1&gt;</code></li>
+<li><code>&lt;h2&gt;</code></li>
+<li><code>&lt;h3&gt;</code></li>
+<li><code>&lt;h4&gt;</code></li>
+<li><code>&lt;h5&gt;</code></li>
+<li><code>&lt;h6&gt;</code></li>
 </ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><h3 id="kaksi-konetta">Kaksi konetta</h3>
-<p>Venla ja Lilja haluavat järjestää lanit. Ensin he liittävät koneet toisiinsa. </p>
-<p> <img src="img/kaksi-konetta.svg" alt="kaksi konetta"></p>
-<p> <a href="https://www.youtube.com/watch?v=lcb8uafr0cw">https://www.youtube.com/watch?v=lcb8uafr0cw</a></p>
+    <section class="slide-content"><h3 id="otsikot">Otsikot</h3>
+<ul>
+<li>Älä käytä vain koon takia, vaan loogisen järjestyksen takia</li>
+<li>Hyvä käytäntö on, että sivulla on vain yksi h1-otsikko. Muita otsikoita voi olla useita. </li>
+</ul>
+<pre><code class="lang-html">
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Eläin- ja kasvikunnat<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Eläinkunta<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>  
+
+          <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Sienieläimet<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>  
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Kalkkisienet<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Sarveispiisienet<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Lasisienet<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Homoscleromorpha<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>  
+
+          <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Monisoluiset<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>  
+
+      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Kasvit<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+</code></pre>
+<ul>
+<li>Tyyleillä voi aina muuttaa otsikoiden kokoa. Järjestä aina sisällön mukaan, ei koon.</li>
+</ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-4">
-    <section class="slide-content"><h3 id="kolme-konetta">Kolme konetta</h3>
-<p>Jani-Petteri tulee kylään ja hänet liitetään verkkoon.  </p>
-<p> <img src="img/kolme-konetta.svg" alt="kolme konetta"></p>
+    <section class="slide-content"><h3 id="otsikot">Otsikot</h3>
+<p>Video otsikoista:</p>
+<p><a href="https://www.udemy.com/course/the-web-developer-bootcamp/learn/lecture/21915862#overview">https://www.udemy.com/course/the-web-developer-bootcamp/learn/lecture/21915862#overview</a></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-5">
-    <section class="slide-content"><h3 id="nelj-konetta">Neljä konetta</h3>
-<p>Myös Pertti saapuu paikalla. Vähän myöhässä, kuten tavallista. Pertti liitetään verkkoon. </p>
-<p> <img src="img/nelja-konetta.svg" alt="nelja konetta"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-6">
-    <section class="slide-content"><h3 id="viisi-konetta">Viisi konetta</h3>
-<p>Pertti lähettää ystävälleen Titalle savumerkkejä ja pyytää hänet mukaan laneihin. Lilja hakee varastosta lisää kaapelia.</p>
-<p> <img src="img/viisi-konetta.svg" alt="viisi konetta"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><h3 id="kuusi-konetta">Kuusi konetta</h3>
-<p>Miia saapuu paikalle viimeisenä. Aika hämähäkinseitti!</p>
-<p> <img src="img/kuusi-konetta.svg" alt="kuusi konetta"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><h3 id="miten-internet-voi-toimia-">Miten Internet voi toimia?</h3>
-<p>Miten Internet on rakennettu, jos jo kuudella lanittajalla tulee monimutkainen verkko!</p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><h3 id="reititin-to-the-rescue-">Reititin to the rescue!</h3>
-<p>Reititin välittää viestit muille lanittajille.</p>
-<p> <img src="img/reititin.svg" alt="reititin"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><h3 id="reititin-v-litt-">Reititin välittää 💕</h3>
-<p>Jos vaikkapa Miia haluaa jutella Pertin kanssa. </p>
-<p> <img src="img/reitti.svg" alt="reitti"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><h3 id="naapurin-lanit">Naapurin lanit</h3>
-<p>Naapurissa on samanlaiset lanit. What?!?</p>
-<p> <img src="img/naapuri.svg" alt="naapuri"></p>
-</section>
-  </div>
-  <div class="slide hidden  " id="slide-12">
-    <section class="slide-content"><h3 id="naapurin-lanit">Naapurin lanit</h3>
-<p>Reititin taas apuun</p>
-<p> <img src="img/naapuri-reititin.svg" alt="naapuri-reititin"></p>
-</section>
-  </div>
-  <div class="slide hidden  " id="slide-13">
-    <section class="slide-content"><h3 id="internet-on-verkkojen-verkko">Internet on verkkojen verkko</h3>
-<p>Verkkoja verkkojen sisällä.</p>
-<p> <img src="img/internet.svg" alt="internet"></p>
-</section>
-  </div>
-  <div class="slide hidden  " id="slide-14">
-    <section class="slide-content"><h3 id="milt-internet-n-ytt-">Miltä Internet näyttää?</h3>
-<p>Internetin &quot;selfie&quot; vuodelta 2005. Tässä näkyy vain pieni osa. </p>
-<p><a href="https://ha.wikipedia.org/wiki/Yanar_gizo#/media/File:Internet_map_1024_-_transparent,_inverted.png">https://ha.wikipedia.org/wiki/Yanar_gizo#/media/File:Internet_map_1024_-_transparent,_inverted.png</a></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-15">
-    <section class="slide-content"><h3 id="internetin-palvelut">Internetin palvelut</h3>
-<p>Internetissä on paljon palveluita, muitakin kuin Webbi. Esimerkiksi sähköposti.</p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-16">
-    <section class="slide-content"><h3 id="world-wide-web">World Wide Web</h3>
-<ul>
-<li>Rakkaalla lapsella monta nimeä</li>
-<li>WWW, Web, Webbi</li>
-<li>Internetissä toimiva palvelu, jossa selaimella luetaan verkkosivuja. </li>
-<li>Monesti WWW ja Internet sekoitetaan keskenään, vaikka WWW on vain yksi Internetin palveluista. </li>
-<li>WWW:llä jaetaan erilaista tietoa (tekstiä, kuvaa, ääntä, videoita) selaimen ja verkkosivujen avulla.</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-17">
-    <section class="slide-content"><h3 id="muistettavat-asiat">Muistettavat asiat</h3>
-<ul>
-<li>Internet on verkkojen verkko</li>
-<li>Internetissä on paljon eri palveluita, joista WWW on suosituin</li>
-<li>WWW = World Wide Web = Web = Webbi</li>
-<li>Palvelu, jossa verkkoselaimella (esim. Chrome) luetaan verkkosivuja (esim. <a href="http://www.yle.fi">www.yle.fi</a>)</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-18">
-    <section class="slide-content"><h3 id="miten-web-toimii-">Miten Web toimii?</h3>
-<ul>
-<li>Internetissä on satoja miljoonia palvelimia (Server). </li>
-<li>Palvelin on tietokone, joka <strong>palvelee</strong> sen asiakkaita. Web-pavelin palvelee Web-asiakkaita (Client), eli selaimia (Browser).</li>
-<li>Etsi kuvahaulla &quot;konesali&quot;.</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-19">
-    <section class="slide-content"><h3 id="venla-hakee-netflixist-winx-aiheisia-sarjoja">Venla hakee Netflixistä Winx-aiheisia sarjoja</h3>
+    <section class="slide-content"><h3 id="harjoitus">Harjoitus</h3>
 <ol>
-<li>Venla avaa selaimen,</li>
-<li>kirjoittaa selaimeen <a href="http://www.netflix.com">www.netflix.com</a>,</li>
-<li>kirjautuu,</li>
-<li>kirjoittaa hakukenttään haun ja</li>
-<li>hakutulokset näkyvät selaimessa.</li>
+<li>tavoiteltu lopputulos: <a href="harjoitus-01-lopetus.html">harjoitus-01-lopetus.html</a></li>
+<li>tästä lähdetään: <a href="harjoitus-01-aloitus.html">harjoitus-01-aloitus.html</a></li>
+<li>avaa tiedosto <br />
+<code>06-html-otsikot/harjoitus-01-aloitus.html</code> <br />
+ ja työstä se lopputuloksen kaltaiseksi.</li>
+<li>Käytä vain <code>&lt;h1&gt; &lt;h2&gt; &lt;p&gt;</code> html-elementtejä</li>
 </ol>
 </section>
   </div>
-  <div class="slide hidden" id="slide-20">
-    <section class="slide-content"><h3 id="netflix-haku">Netflix-haku</h3>
-<p> <img src="img/winx-haku.svg" alt="winx-haku"></p>
-</section>
+  <div class="slide hidden" id="slide-6">
+    <section class="slide-content"></section>
   </div>
-  <div class="slide hidden" id="slide-21">
-    <section class="slide-content"><h3 id="webin-pelis-nn-t">Webin pelisäännöt</h3>
-<ul>
-<li>Protokolla tarkoittaa yhteisesti sovittuja <strong>sääntöjä</strong>. </li>
-<li>HTTP (Hyper Text Transfer Protocol) on Webin yhteisesti sovitut säännöt. </li>
-<li>Ohjeet, miten selain saa kyseltyä verkkosivuja palvelimelta.</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-22">
-    <section class="slide-content"><h3 id="leikki-client-server">Leikki: Client &amp; Server</h3>
-<ul>
-<li>Tarvikkeet:<ul>
-<li>värikynät</li>
-<li>kolmen värisiä post-it -lappuja</li>
-<li>laatikko</li>
-<li>kirjoituskynä posti-it -lapuille</li>
-<li>pahvinpalasia</li>
-</ul>
-</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-23">
-    <section class="slide-content"><h3 id="leikki-client-server">Leikki: Client &amp; Server</h3>
-<ul>
-<li>Valitaan käyttäjä, selain (Client) ja palvelin (Server)</li>
-<li>Kurssin vetäjän kannattaa olla käyttäjä</li>
-<li>Pahvinpalasille kirjoitetaan &quot;GET&quot;, &quot;401 Not found&quot;, &quot;500 Internal Server Error&quot; ja &quot;200 OK&quot;</li>
-<li>Leikkiin saa pukeutua</li>
-<li>Alussa käydään läpi lappujen tarkoitus. Sininen on HTML (sisältö), punainen tarkoittaa tyyliä (CSS) ja keltainen Javascriptiä (JS).</li>
-</ul>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-24">
-    <section class="slide-content"><h3 id="leikki-client-server">Leikki: Client &amp; Server</h3>
-<p>Käyttäjä kirjoittaa paperille osoitteen, johon haluaa mennä. Käyttäjä antaa osoitelapun selaimelle. Selain ottaa lapun vastaan ja laittaa sen pieneen koriin yhdessä &quot;GET&quot;-pahvinpalan kanssa. </p>
-<p>Kun palvelin saa laatikon, niin se tutkii, että löytyykö sivu. Jos ei löydy, niin voi palauttaa suoraan &quot;401&quot;:en tai jos jokin menee pieleen, niin &quot;500&quot;:en. Jos sivu löytyy ja se osataan palauttaa, niin palvelin kirjoittaa laatikkoon kolme lappua.</p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-25">
-    <section class="slide-content"><h3 id="leikki-client-server">Leikki: Client &amp; Server</h3>
-<p>Siniseen lappuun tulee sisältö omin sanoin, vaikkapa ranskalaisin viivoin. Punaiseen lappuun voi kirjoittaa tyylin, esimerkiksi taustan värin, tekstin värin, välit, otsikoiden värit jne. Keltaiseen lappuun kirjoitetaan Javascript omin sanoin, eli käytännössä mitä sivulla tapahtuu, kun käyttäjä liikkuu siinä. </p>
-<p>Kun palvelin palauttaa laatikon selaimelle, niin selain lukee ensin html- ja tyylilaput ja piirtää sivun näiden perusteella. Tämän jälkeen selain näyttää sivun käyttäjälle ja käyttäjä kertoo, että mitä tekee sivulla. Esimerkiksi sormella liikkuu paperilla ja sanoo asioita, joita tekee. &quot;Laitan hiiren tämän tekstin päälle, mutta en vielä klikkaa&quot;. Tai &quot;klikkaan nyt tätä painiketta&quot;.</p>
-</section>
-  </div>
-  <div class="slide hidden author-slide" id="slide-26">
+  <div class="slide hidden author-slide" id="slide-7">
     <section class="slide-content"><div class="author">
   <h1 class="name">Hannu Korhonen</h1>
     <h3 class="github">
